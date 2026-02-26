@@ -1,0 +1,5 @@
+package com.pdas.LLD.InterceptorsWithGateLevelValidation.RateLimiter;
+
+public interface RateLimiter {
+    RateLimiterResult checkLimit(String key);
+}
