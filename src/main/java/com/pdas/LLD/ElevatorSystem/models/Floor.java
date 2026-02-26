@@ -1,6 +1,6 @@
 package com.pdas.LLD.ElevatorSystem.models;
 
-import org.pdas.LLD.ElevatorSystem.enums.FLOOR_NUMBER;
+import com.pdas.LLD.ElevatorSystem.enums.FLOOR_NUMBER;
 
 public class Floor {
     private FLOOR_NUMBER floorNumber;

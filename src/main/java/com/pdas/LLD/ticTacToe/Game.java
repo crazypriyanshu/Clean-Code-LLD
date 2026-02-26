@@ -1,8 +1,11 @@
 package com.pdas.LLD.ticTacToe;
 
-import org.pdas.LLD.ticTacToe.Exceptions.InvalidCellException;
-import org.pdas.LLD.ticTacToe.interfaces.*;
-import org.pdas.LLD.ticTacToe.winningStratergies.*;
+
+import com.pdas.LLD.ticTacToe.interfaces.GameState;
+import com.pdas.LLD.ticTacToe.winningStratergies.LockColumnWinningStrategy;
+import com.pdas.LLD.ticTacToe.winningStratergies.LockDiognalWinningStrategy;
+import com.pdas.LLD.ticTacToe.winningStratergies.LockRowWinningStrategy;
+import com.pdas.LLD.ticTacToe.winningStratergies.WinningStrategy;
 
 import java.util.List;
 import java.util.Objects;

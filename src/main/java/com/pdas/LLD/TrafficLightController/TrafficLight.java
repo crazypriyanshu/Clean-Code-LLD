@@ -1,8 +1,9 @@
 package com.pdas.LLD.TrafficLightController;
 
-import org.pdas.LLD.TrafficLightController.observers.TrafficObserver;
-import org.pdas.LLD.TrafficLightController.states.GreenState;
-import org.pdas.LLD.TrafficLightController.states.RedState;
+
+import com.pdas.LLD.TrafficLightController.observers.TrafficObserver;
+import com.pdas.LLD.TrafficLightController.states.GreenState;
+import com.pdas.LLD.TrafficLightController.states.RedState;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,7 @@
 package com.pdas.LLD.InterceptorsWithGateLevelValidation.GateSelectors;
 
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.RequestContext;
+
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.RequestContext;
 
 import java.util.List;
 

@@ -1,7 +1,8 @@
 package com.pdas.LLD.TrafficLightController.intersection;
 
-import org.pdas.LLD.TrafficLightController.Direction;
-import org.pdas.LLD.TrafficLightController.LightColor;
+
+import com.pdas.LLD.TrafficLightController.Direction;
+import com.pdas.LLD.TrafficLightController.LightColor;
 
 public class EastWestGreenState implements IntersectionState{
     @Override

@@ -1,7 +1,7 @@
 package com.pdas.LLD.InterceptorsWithGateLevelValidation.Interceptor;
 
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.ValidationResult;
-import org.pdas.arrays.javaQ.B;
+
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.ValidationResult;
 
 import java.util.Collections;
 import java.util.Map;

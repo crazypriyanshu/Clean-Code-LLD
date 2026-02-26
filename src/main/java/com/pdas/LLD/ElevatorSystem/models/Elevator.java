@@ -1,8 +1,9 @@
 package com.pdas.LLD.ElevatorSystem.models;
 
-import org.pdas.LLD.ElevatorSystem.enums.DIRECTIONS;
-import org.pdas.LLD.ElevatorSystem.enums.ELEVATOR_NUMBER;
-import org.pdas.LLD.ElevatorSystem.enums.FLOOR_NUMBER;
+
+import com.pdas.LLD.ElevatorSystem.enums.DIRECTIONS;
+import com.pdas.LLD.ElevatorSystem.enums.ELEVATOR_NUMBER;
+import com.pdas.LLD.ElevatorSystem.enums.FLOOR_NUMBER;
 
 public class Elevator {
 

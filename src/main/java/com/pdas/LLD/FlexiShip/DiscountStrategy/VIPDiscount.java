@@ -1,6 +1,7 @@
 package com.pdas.LLD.FlexiShip.DiscountStrategy;
 
-import org.pdas.LLD.FlexiShip.Order;
+
+import com.pdas.LLD.FlexiShip.Order;
 
 import java.math.BigDecimal;
 

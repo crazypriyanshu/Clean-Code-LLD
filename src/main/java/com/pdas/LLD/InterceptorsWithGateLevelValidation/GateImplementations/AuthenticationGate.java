@@ -1,11 +1,12 @@
 package com.pdas.LLD.InterceptorsWithGateLevelValidation.GateImplementations;
 
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.AbstractGate;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.GateType;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.RequestContext;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.TokenValidator.TokenValidationResult;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.TokenValidator.TokenValidator;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.ValidationResult;
+
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.AbstractGate;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.GateType;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.RequestContext;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.TokenValidator.TokenValidationResult;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.TokenValidator.TokenValidator;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.ValidationResult;
 
 public class AuthenticationGate extends AbstractGate {
     private final TokenValidator tokenValidator;

@@ -1,8 +1,9 @@
 package com.pdas.LLD.ElevatorSystem.models;
 
-import org.pdas.LLD.ElevatorSystem.enums.DOOR_ACTION;
-import org.pdas.LLD.ElevatorSystem.enums.FLOOR_NUMBER;
-import org.pdas.LLD.ElevatorSystem.interfaces.Panel;
+import com.pdas.LLD.ElevatorSystem.enums.DOOR_ACTION;
+import com.pdas.LLD.ElevatorSystem.enums.FLOOR_NUMBER;
+import com.pdas.LLD.ElevatorSystem.interfaces.Panel;
+
 
 import java.util.ArrayList;
 import java.util.List;

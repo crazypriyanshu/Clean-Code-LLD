@@ -1,8 +1,9 @@
 package com.pdas.LLD.TrafficManagement.intersection;
 
-import org.pdas.LLD.TrafficManagement.core.LightColor;
-import org.pdas.LLD.TrafficManagement.core.TrafficLight;
-import org.pdas.LLD.TrafficManagement.signal.RED_STATE;
+
+import com.pdas.LLD.TrafficManagement.core.LightColor;
+import com.pdas.LLD.TrafficManagement.core.TrafficLight;
+import com.pdas.LLD.TrafficManagement.signal.RED_STATE;
 
 public class EmergencyState implements IntersectionState{
     @Override

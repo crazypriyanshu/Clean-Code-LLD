@@ -1,7 +1,8 @@
 package com.pdas.LLD.ElevatorSystem.models;
 
-import org.pdas.LLD.ElevatorSystem.enums.DIRECTIONS;
-import org.pdas.LLD.ElevatorSystem.interfaces.Button;
+
+import com.pdas.LLD.ElevatorSystem.enums.DIRECTIONS;
+import com.pdas.LLD.ElevatorSystem.interfaces.Button;
 
 public class HallButton implements Button {
     private boolean status;

@@ -1,8 +1,9 @@
 package com.pdas.LLD.TrafficManagement.intersection;
 
-import org.pdas.LLD.TrafficManagement.signal.GREEN_STATE;
-import org.pdas.LLD.TrafficManagement.signal.RED_STATE;
-import org.pdas.LLD.TrafficManagement.signal.YELLOW_STATE;
+
+import com.pdas.LLD.TrafficManagement.signal.GREEN_STATE;
+import com.pdas.LLD.TrafficManagement.signal.RED_STATE;
+import com.pdas.LLD.TrafficManagement.signal.YELLOW_STATE;
 
 import java.util.List;
 

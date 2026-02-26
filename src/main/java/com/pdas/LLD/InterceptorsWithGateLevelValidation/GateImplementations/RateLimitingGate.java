@@ -1,11 +1,12 @@
 package com.pdas.LLD.InterceptorsWithGateLevelValidation.GateImplementations;
 
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.AbstractGate;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.GateType;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.RateLimiter.RateLimiterResult;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.RateLimiter.TokenBucketRateLimiter;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.RequestContext;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.ValidationResult;
+
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.AbstractGate;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.GateType;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.RateLimiter.RateLimiterResult;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.RateLimiter.TokenBucketRateLimiter;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.RequestContext;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.ValidationResult;
 
 public class RateLimitingGate extends AbstractGate {
     private final TokenBucketRateLimiter rateLimiter;
@@ -34,9 +35,9 @@ public class RateLimitingGate extends AbstractGate {
         String key = context.getPath()+":" + clientId;
         RateLimiterResult result = rateLimiter.checkLimit(key);
 
-        if (result.isAllowed()){
-            context.getAttributes().put("rateLimitRemaining", result.getRemainingTokens());
-            context.getAttributes().put("rateLimitReset", result.getRetryAfterMillis());
+        if (result.allowed()){
+            context.getAttributes().put("rateLimitRemaining", result.remainingTokens());
+            context.getAttributes().put("rateLimitReset", result.retryAfterMillis());
             return ValidationResult.success(getName());
         } else {
             return new ValidationResult.Builder()
@@ -44,7 +45,7 @@ public class RateLimitingGate extends AbstractGate {
                     .gateName(getName())
                     .message("Rate Limit Exceeded")
                     .errorCode(429)
-                    .detail("limit",String.valueOf(result.getRetryAfterMillis()))
+                    .detail("limit",String.valueOf(result.retryAfterMillis()))
                     .build();
         }
 

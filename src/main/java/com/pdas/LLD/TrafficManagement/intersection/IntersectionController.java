@@ -1,11 +1,9 @@
 package com.pdas.LLD.TrafficManagement.intersection;
 
 
-import org.pdas.LLD.TrafficLightController.Direction;
-import org.pdas.LLD.TrafficLightController.observers.TrafficObserver;
-import org.pdas.LLD.TrafficManagement.core.DIRECTIONS;
-import org.pdas.LLD.TrafficManagement.core.TrafficLight;
-import org.pdas.LLD.TrafficManagement.observers.TrafficLightObserver;
+import com.pdas.LLD.TrafficManagement.core.DIRECTIONS;
+import com.pdas.LLD.TrafficManagement.core.TrafficLight;
+import com.pdas.LLD.TrafficManagement.observers.TrafficLightObserver;
 
 import java.util.*;
 import java.util.concurrent.TimeUnit;
@@ -24,7 +22,7 @@ public class IntersectionController implements Runnable {
     private volatile boolean isEmergency = false;
     private IntersectionState currentState;
 
-    private final Lock lock = new  ReentrantLock();
+    private final Lock lock = new ReentrantLock();
     private final Condition timerCondition = lock.newCondition();
 
     public IntersectionController(Long controllerId, Map<Integer, TrafficLight> roadMap, List<List<Integer>> phases, int greenDurationInSecs, int yellowDurationInSecs) {

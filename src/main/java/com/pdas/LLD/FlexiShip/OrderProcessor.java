@@ -1,8 +1,10 @@
 package com.pdas.LLD.FlexiShip;
 
-import org.pdas.LLD.FlexiShip.DiscountStrategy.DiscountStrategy;
-import org.pdas.LLD.FlexiShip.ShippingProviders.ShippingStrategy;
-import org.pdas.LLD.FlexiShip.ShippingProviders.ShippingStrategyFactory;
+
+
+import com.pdas.LLD.FlexiShip.DiscountStrategy.DiscountStrategy;
+import com.pdas.LLD.FlexiShip.ShippingProviders.ShippingStrategy;
+import com.pdas.LLD.FlexiShip.ShippingProviders.ShippingStrategyFactory;
 
 import java.math.BigDecimal;
 

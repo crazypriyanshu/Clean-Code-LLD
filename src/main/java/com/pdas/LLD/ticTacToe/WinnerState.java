@@ -1,7 +1,8 @@
 package com.pdas.LLD.ticTacToe;
 
-import org.pdas.LLD.ticTacToe.Exceptions.InvalidMoveException;
-import org.pdas.LLD.ticTacToe.interfaces.GameState;
+
+import com.pdas.LLD.ticTacToe.Exceptions.InvalidMoveException;
+import com.pdas.LLD.ticTacToe.interfaces.GameState;
 
 public class WinnerState implements GameState {
     @Override

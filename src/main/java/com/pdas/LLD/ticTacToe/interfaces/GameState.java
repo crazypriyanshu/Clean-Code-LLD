@@ -1,7 +1,8 @@
 package com.pdas.LLD.ticTacToe.interfaces;
 
-import org.pdas.LLD.ticTacToe.Game;
-import org.pdas.LLD.ticTacToe.Player;
+
+import com.pdas.LLD.ticTacToe.Game;
+import com.pdas.LLD.ticTacToe.Player;
 
 public interface GameState {
     void handleMove(Game game, Player player, int row, int col);

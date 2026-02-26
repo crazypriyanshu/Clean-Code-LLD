@@ -1,11 +1,11 @@
 package com.pdas.LLD.TrafficManagement.core;
 
-import org.pdas.LLD.TrafficLightController.observers.TrafficObserver;
-import org.pdas.LLD.TrafficManagement.observers.TrafficLightObserver;
-import org.pdas.LLD.TrafficManagement.signal.GREEN_STATE;
-import org.pdas.LLD.TrafficManagement.signal.RED_STATE;
-import org.pdas.LLD.TrafficManagement.signal.SignalState;
-import org.pdas.LLD.TrafficManagement.signal.YELLOW_STATE;
+
+import com.pdas.LLD.TrafficManagement.observers.TrafficLightObserver;
+import com.pdas.LLD.TrafficManagement.signal.GREEN_STATE;
+import com.pdas.LLD.TrafficManagement.signal.RED_STATE;
+import com.pdas.LLD.TrafficManagement.signal.SignalState;
+import com.pdas.LLD.TrafficManagement.signal.YELLOW_STATE;
 
 import java.util.ArrayList;
 import java.util.List;

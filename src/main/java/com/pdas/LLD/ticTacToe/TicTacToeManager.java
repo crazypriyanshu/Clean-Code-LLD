@@ -1,7 +1,7 @@
 package com.pdas.LLD.ticTacToe;
 
-import org.pdas.LLD.ticTacToe.Exceptions.InvalidMoveException;
-import org.pdas.LLD.ticTacToe.interfaces.GameState;
+
+import com.pdas.LLD.ticTacToe.Exceptions.InvalidMoveException;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

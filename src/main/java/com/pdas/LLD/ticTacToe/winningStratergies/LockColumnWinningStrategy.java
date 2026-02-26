@@ -1,8 +1,9 @@
 package com.pdas.LLD.ticTacToe.winningStratergies;
 
-import org.pdas.LLD.ticTacToe.Board;
-import org.pdas.LLD.ticTacToe.Player;
-import org.pdas.LLD.ticTacToe.Symbol;
+
+import com.pdas.LLD.ticTacToe.Board;
+import com.pdas.LLD.ticTacToe.Player;
+import com.pdas.LLD.ticTacToe.Symbol;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

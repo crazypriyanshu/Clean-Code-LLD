@@ -1,6 +1,7 @@
 package com.pdas.LLD.ElevatorSystem.models;
 
-import org.pdas.LLD.ElevatorSystem.enums.DOOR_ACTION;
+
+import com.pdas.LLD.ElevatorSystem.enums.DOOR_ACTION;
 
 public class Door {
     private DOOR_ACTION doorAction;

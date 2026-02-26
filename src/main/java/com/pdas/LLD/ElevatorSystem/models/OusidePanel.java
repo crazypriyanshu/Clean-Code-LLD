@@ -1,7 +1,9 @@
 package com.pdas.LLD.ElevatorSystem.models;
 
-import org.pdas.LLD.ElevatorSystem.enums.DIRECTIONS;
-import org.pdas.LLD.ElevatorSystem.interfaces.Panel;
+
+
+import com.pdas.LLD.ElevatorSystem.enums.DIRECTIONS;
+import com.pdas.LLD.ElevatorSystem.interfaces.Panel;
 
 import java.util.ArrayList;
 import java.util.List;

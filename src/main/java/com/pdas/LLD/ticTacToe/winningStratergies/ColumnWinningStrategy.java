@@ -1,7 +1,8 @@
 package com.pdas.LLD.ticTacToe.winningStratergies;
 
-import org.pdas.LLD.ticTacToe.Board;
-import org.pdas.LLD.ticTacToe.Player;
+
+import com.pdas.LLD.ticTacToe.Board;
+import com.pdas.LLD.ticTacToe.Player;
 
 public class ColumnWinningStrategy implements WinningStrategy {
 

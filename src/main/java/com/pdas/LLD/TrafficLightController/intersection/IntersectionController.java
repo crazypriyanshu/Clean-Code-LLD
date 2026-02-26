@@ -1,9 +1,9 @@
 package com.pdas.LLD.TrafficLightController.intersection;
 
-import org.pdas.LLD.SnakeLadderGame.Game;
-import org.pdas.LLD.TrafficLightController.Direction;
-import org.pdas.LLD.TrafficLightController.TrafficLight;
-import org.pdas.LLD.TrafficLightController.observers.TrafficObserver;
+
+import com.pdas.LLD.TrafficLightController.Direction;
+import com.pdas.LLD.TrafficLightController.TrafficLight;
+import com.pdas.LLD.TrafficLightController.observers.TrafficObserver;
 
 import java.util.ArrayList;
 import java.util.HashMap;

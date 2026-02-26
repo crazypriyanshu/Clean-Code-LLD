@@ -1,6 +1,7 @@
 package com.pdas.LLD.InterceptorsWithGateLevelValidation.TokenValidator;
 
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.User.User;
+
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.User.User;
 
 import java.util.Map;
 

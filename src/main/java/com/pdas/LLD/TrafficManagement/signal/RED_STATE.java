@@ -1,7 +1,8 @@
 package com.pdas.LLD.TrafficManagement.signal;
 
-import org.pdas.LLD.TrafficManagement.core.LightColor;
-import org.pdas.LLD.TrafficManagement.core.TrafficLight;
+
+import com.pdas.LLD.TrafficManagement.core.LightColor;
+import com.pdas.LLD.TrafficManagement.core.TrafficLight;
 
 public class RED_STATE implements SignalState{
 

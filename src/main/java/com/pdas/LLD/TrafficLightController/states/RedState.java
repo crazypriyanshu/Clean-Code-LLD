@@ -1,6 +1,9 @@
 package com.pdas.LLD.TrafficLightController.states;
 
-import org.pdas.LLD.TrafficLightController.*;
+
+import com.pdas.LLD.TrafficLightController.LightColor;
+import com.pdas.LLD.TrafficLightController.SignalState;
+import com.pdas.LLD.TrafficLightController.TrafficLight;
 
 public class RedState implements SignalState {
     @Override

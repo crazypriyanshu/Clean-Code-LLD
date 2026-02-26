@@ -1,7 +1,8 @@
 package com.pdas.LLD.TrafficLightController;
 
-import org.pdas.LLD.TrafficLightController.intersection.IntersectionController;
-import org.pdas.LLD.TrafficLightController.observers.CentralMonitor;
+
+import com.pdas.LLD.TrafficLightController.intersection.IntersectionController;
+import com.pdas.LLD.TrafficLightController.observers.CentralMonitor;
 
 import java.util.ArrayList;
 import java.util.List;

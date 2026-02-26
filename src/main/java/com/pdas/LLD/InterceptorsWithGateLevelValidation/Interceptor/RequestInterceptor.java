@@ -1,7 +1,8 @@
 package com.pdas.LLD.InterceptorsWithGateLevelValidation.Interceptor;
 
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.Gate;
-import org.pdas.LLD.InterceptorsWithGateLevelValidation.GateSelectors.GateSelector;
+
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.Gate;
+import com.pdas.LLD.InterceptorsWithGateLevelValidation.GateSelectors.GateSelector;
 
 import java.util.ArrayList;
 import java.util.Comparator;

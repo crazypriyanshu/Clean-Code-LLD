@@ -1,8 +1,9 @@
 package com.pdas.LLD.TrafficManagement;
 
-import org.pdas.LLD.TrafficManagement.core.DIRECTIONS;
-import org.pdas.LLD.TrafficManagement.intersection.IntersectionController;
-import org.pdas.LLD.TrafficManagement.observers.CentralObserver;
+
+import com.pdas.LLD.TrafficManagement.core.DIRECTIONS;
+import com.pdas.LLD.TrafficManagement.intersection.IntersectionController;
+import com.pdas.LLD.TrafficManagement.observers.CentralObserver;
 
 public class Client {
     public static void main(String[] args) {

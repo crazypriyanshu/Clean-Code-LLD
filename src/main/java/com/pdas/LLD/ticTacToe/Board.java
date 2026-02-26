@@ -1,7 +1,8 @@
 package com.pdas.LLD.ticTacToe;
 
-import org.pdas.LLD.ticTacToe.Exceptions.InvalidCellException;
-import org.pdas.LLD.ticTacToe.Exceptions.InvalidMoveException;
+
+import com.pdas.LLD.ticTacToe.Exceptions.InvalidCellException;
+import com.pdas.LLD.ticTacToe.Exceptions.InvalidMoveException;
 
 import java.util.Arrays;
 

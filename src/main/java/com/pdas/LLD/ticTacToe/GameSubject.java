@@ -1,6 +1,7 @@
 package com.pdas.LLD.ticTacToe;
 
-import org.pdas.LLD.ticTacToe.interfaces.GameObserver;
+
+import com.pdas.LLD.ticTacToe.interfaces.GameObserver;
 
 import java.util.ArrayList;
 import java.util.List;
